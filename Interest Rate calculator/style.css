@@ -3,12 +3,14 @@
     padding: 0px;
 }
 .container{
-    border: 2px solid black;
+    background-color:aliceblue;
+    border: 2px solid transparent;
     border-radius: 10px;
+    box-shadow:inset;
     width: 80%;
     height: 550px;
     margin-left: 150px;
-    margin-top: 100px;
+    margin-top: 80px;
     position: absolute;
 }
  header{
@@ -39,5 +41,10 @@ button:hover{
     color: white;
 }
 span{
-    margin-left: 550px;
+    margin-left: 600px;
+    background-color:black;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
 }
